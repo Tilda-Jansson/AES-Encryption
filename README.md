@@ -20,16 +20,17 @@ For example, to run the code after compilation, you can use the command `./aes <
 ## Procedure Overview:
 The AES-128 encryption process follows these key steps, as outlined in the [Advanced Encryption Standard procedure](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard):
 
-  1. Key Expansion
-  2. Initial Round Key - bitwise xor
+1. **Key Expansion**
+2. **Initial Round Key** - bitwise xor
 
-Repeat 3-6 9x for 128 bit keys (11x for 192 bits and 13x for 256 bits)
-  3. Substitute Bytes - lookup table
-  4. Shift Rows 
-  5. Mix Columns 
-  6. Add Round Key
+Repeat steps 3-6 nine times for 128-bit keys (eleven times for 192-bit keys and thirteen times for 256-bit keys):
+3. **Substitute Bytes** - lookup table
+4. **Shift Rows**
+5. **Mix Columns**
+6. **Add Round Key**
 
- Final Round
-  7. Substitute Bytes
-  8. Shift Rows
-  9. Add Round Key
+**Final Round:**
+7. **Substitute Bytes**
+8. **Shift Rows**
+9. **Add Round Key**
+
